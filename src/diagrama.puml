@@ -1,0 +1,46 @@
+@startuml
+class Interfaz {
+  - jpPanelPrincipal : JPanel
+  - jtTablero : JTable
+  - btnAvanzar : JButton
+  - ejecutarRecorridoButton : JButton
+  - btnDerecha : JButton
+  - btnIzquierda : JButton
+  - reiniciarButton : JButton
+  - cargarButton : JButton
+  - listaMovimientos : JList<ImageIcon>
+  + Interfaz()
+  + configurarVentana() : void
+  + inicializarTablero() : void
+  + escalarImagen(ruta:String, ancho:int, alto:int) : ImageIcon
+}
+
+class Tablero {
+  - celdas : Figura[][]
+  + inicializar() : void
+  + colocarRobot(r:Robot) : void
+}
+
+class Robot {
+  - posicionX : int
+  - posicionY : int
+  - direccion : String
+  + mover() : void
+}
+
+abstract class Figura {
+  - color : String
+  + dibujar() : void
+}
+
+class Circulo extends Figura
+class Cuadrado extends Figura
+class Triangulo extends Figura
+
+Interfaz --> Tablero
+Tablero --> Robot
+Tablero --> Figura
+Figura <|-- Circulo
+Figura <|-- Cuadrado
+Figura <|-- Triangulo
+@enduml
