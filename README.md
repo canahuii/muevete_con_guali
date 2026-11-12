@@ -23,7 +23,7 @@ Aplicación de escritorio interactiva desarrollada en **Java** diseñada para in
 * **Tablero Matricial Dinámico:** Generación de un tablero grid con objetos aleatorios únicos en forma y color (círculos, cuadrados y triángulos) como obstáculos o metas.
 * **Cola de Instrucciones (Área de Selección):** Permite apilar comandos secuenciales mediante botones interactivos:
   * **Avanzar:** Mueve al agente un cuadro hacia adelante.
-  * ↪**Girar Izquierda / Derecha:** Modifica la orientación espacial del agente.
+  * **Girar Izquierda / Derecha:** Modifica la orientación espacial del agente.
 * **Motor de Ejecución con Timer:** Animación secuencial del recorrido procesando los comandos almacenados.
 * **Historial de Intentos (Función Cargar):** Panel flotante en memoria volátil para el registro de victorias, derrotas y marcas de tiempo durante la ejecución activa.
 * **Manejo de Estados:** Detección automática de colisiones, límites del tablero y condiciones de victoria o derrota.
