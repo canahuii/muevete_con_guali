@@ -14,11 +14,11 @@ Aplicación de escritorio interactiva desarrollada en **Java** diseñada para in
 
 | Tablero Principal y Cola de Movimientos |
 | :---: |
-| ![Demo del Proyecto](imagenes/pantalla_inicio.png) |
+| ![Demo del Proyecto](imagenes/guali-ejecucion.gif) |
 
 ---
 
-## 🚀 Características Principales
+##  Características Principales
 
 * **Tablero Matricial Dinámico:** Generación de un tablero grid con objetos aleatorios únicos en forma y color (círculos, cuadrados y triángulos) como obstáculos o metas.
 * **Cola de Instrucciones (Área de Selección):** Permite apilar comandos secuenciales mediante botones interactivos:
@@ -30,7 +30,7 @@ Aplicación de escritorio interactiva desarrollada en **Java** diseñada para in
 
 ---
 
-## 🛠️ Tecnologías y Conceptos Aplicados
+## Tecnologías y Conceptos Aplicados
 
 * **Lenguaje:** Java (JDK 25).
 * **Entorno de Desarrollo:** IntelliJ IDEA.
@@ -59,13 +59,12 @@ El proyecto nació a partir de un documento de requerimientos y prototipos (*moc
 
 ### Pasos
 1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/uni-simulador-tablero-java.git](https://github.com/tu-usuario/uni-simulador-tablero-java.git)
+```bash
+git clone https://github.com/canahuii/muevete_con_guali.git
+```
 
 2. Abre la carpeta del proyecto en IntelliJ IDEA.
 
 3. Asegúrate de tener configurado el SDK de Java en las preferencias del proyecto.
 
 4. Navega hasta el archivo src/App.java y ejecútalo (Run App.main()).
-
-![demostracion del funcionamiento del programa](imagenes/demo.gif)
